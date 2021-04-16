@@ -106,22 +106,29 @@ body {
 <body>
 
     <form action="index.php" class="login-form">
-        <h1>LOGIN</h1>
+        <h1>REGISTRO</h1>
         <div class="txtb">
             <input type="text">
-            <span data-placeholder="Username"></span>
+            <span data-placeholder="Ingrese su nombre de usuario"></span>
+        </div>
+
+        <div class="txtb">
+            <input type="text">
+            <span data-placeholder="Ingrese su correo electrónico"></span>
         </div>
 
         <div class="txtb">
             <input type="password">
-            <span data-placeholder="Password"></span>
+            <span data-placeholder="Ingrese su contraseña"></span>
         </div>
-
-        <input type="submit" class="logbtn" value="Login">
-
         <div class="bottom-text">
-            ¿No tienes cuenta?<a href="">Regístrese aquí</a>
+            He leído y aceptado los <a href="">términos y condiciones</a>
         </div>
+        <br>
+        <br>
+        <input type="submit" class="logbtn" value="Registrarse">
+
+
 
     </form>
 
